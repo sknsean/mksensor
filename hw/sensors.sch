@@ -44,4 +44,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Text HLabel 3250 2250 0    60   Input ~ 0
+LDO_3V3
 $EndSCHEMATC

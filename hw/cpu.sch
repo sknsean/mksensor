@@ -114,4 +114,10 @@ Wire Wire Line
 	4950 4625 4875 4625
 Wire Wire Line
 	4875 4625 4875 4700
+Text HLabel 1050 2900 0    60   Input ~ 0
+LDO_3V3
+Text HLabel 4550 3125 2    60   Output ~ 0
+RADIO_CS
+Wire Wire Line
+	4550 3125 3950 3125
 $EndSCHEMATC

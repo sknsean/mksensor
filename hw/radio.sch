@@ -303,4 +303,14 @@ Wire Wire Line
 	6300 3025 6575 3025
 Wire Wire Line
 	6300 3125 6575 3125
+Text HLabel 8375 3500 0    60   Input ~ 0
+LDO_3V3
+Wire Wire Line
+	8375 3500 8475 3500
+Wire Wire Line
+	8475 3500 8475 3225
+Wire Wire Line
+	8475 3225 8350 3225
+Wire Wire Line
+	8350 3225 8350 2975
 $EndSCHEMATC
