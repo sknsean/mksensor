@@ -81,6 +81,8 @@ U 58BE938D
 F0 "sensors" 60
 F1 "sensors.sch" 60
 F2 "LDO_3V3" I L 7475 3725 60 
+F3 "I2C_SCL" I L 7475 3850 60 
+F4 "I2C_SDA" B L 7475 4000 60 
 $EndSheet
 Wire Wire Line
 	6000 2150 7475 2150
