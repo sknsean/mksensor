@@ -1,14 +1,14 @@
 (kicad_pcb (version 4) (host pcbnew 4.0.5)
 
   (general
-    (links 148)
+    (links 268)
     (no_connects 0)
-    (area 133.051167 109.321308 187.033334 160.625)
+    (area 133.051167 109.01 187.033334 160.7475)
     (thickness 1.6)
     (drawings 4)
     (tracks 785)
     (zones 0)
-    (modules 49)
+    (modules 173)
     (nets 44)
   )
 
@@ -16,18 +16,18 @@
   (layers
     (0 F.Cu signal)
     (31 B.Cu signal)
-    (33 F.Adhes user)
-    (35 F.Paste user)
+    (33 F.Adhes user hide)
+    (35 F.Paste user hide)
     (37 F.SilkS user)
-    (39 F.Mask user)
+    (39 F.Mask user hide)
     (40 Dwgs.User user)
     (41 Cmts.User user)
     (42 Eco1.User user)
     (43 Eco2.User user)
     (44 Edge.Cuts user)
     (45 Margin user)
-    (47 F.CrtYd user)
-    (49 F.Fab user hide)
+    (47 F.CrtYd user hide)
+    (49 F.Fab user)
   )
 
   (setup
@@ -54,15 +54,15 @@
     (mod_edge_width 0.15)
     (mod_text_size 1 1)
     (mod_text_width 0.15)
-    (pad_size 1.5 1.5)
-    (pad_drill 0.6)
+    (pad_size 0.6 0.6)
+    (pad_drill 0.3)
     (pad_to_mask_clearance 0)
     (aux_axis_origin 0 0)
     (grid_origin 164.691 122.415)
-    (visible_elements FFFC4E7F)
+    (visible_elements FFFCFFFF)
     (pcbplotparams
-      (layerselection 0x00030_80000001)
-      (usegerberextensions false)
+      (layerselection 0x280aa_80000001)
+      (usegerberextensions true)
       (excludeedgelayer true)
       (linewidth 0.100000)
       (plotframeref false)
@@ -82,9 +82,9 @@
       (subtractmaskfromsilk false)
       (outputformat 1)
       (mirror false)
-      (drillshape 1)
+      (drillshape 0)
       (scaleselection 1)
-      (outputdirectory ""))
+      (outputdirectory gerber/))
   )
 
   (net 0 "")
@@ -202,6 +202,1482 @@
     (add_net GNDD)
   )
 
+  (module custom:STICH (layer F.Cu) (tedit 58CA496A) (tstamp 58CA4E3B)
+    (at 144.1795 111.1755)
+    (fp_text reference REF** (at 0 1) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value STICH (at 0 -1) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 2 GNDD) (zone_connect 2))
+  )
+
+  (module custom:STICH (layer F.Cu) (tedit 58CA496A) (tstamp 58CA4E37)
+    (at 142.1795 111.1755)
+    (fp_text reference REF** (at 0 1) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value STICH (at 0 -1) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 2 GNDD) (zone_connect 2))
+  )
+
+  (module custom:STICH (layer F.Cu) (tedit 58CA496A) (tstamp 58CA4E33)
+    (at 140.1795 111.1755)
+    (fp_text reference REF** (at 0 1) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value STICH (at 0 -1) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 2 GNDD) (zone_connect 2))
+  )
+
+  (module custom:STICH (layer F.Cu) (tedit 58CA496A) (tstamp 58CA4E2F)
+    (at 138.1795 111.1755)
+    (fp_text reference REF** (at 0 1) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value STICH (at 0 -1) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 2 GNDD) (zone_connect 2))
+  )
+
+  (module custom:STICH (layer F.Cu) (tedit 58CA496A) (tstamp 58CA4E2A)
+    (at 136.1795 111.1755)
+    (fp_text reference REF** (at 0 1) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value STICH (at 0 -1) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 2 GNDD) (zone_connect 2))
+  )
+
+  (module custom:STICH (layer F.Cu) (tedit 58CA496A) (tstamp 58CA4E25)
+    (at 139.545 120.51)
+    (fp_text reference REF** (at 0 1) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value STICH (at 0 -1) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 2 GNDD) (zone_connect 2))
+  )
+
+  (module custom:STICH (layer F.Cu) (tedit 58CA496A) (tstamp 58CA4E20)
+    (at 155.9915 116.1285)
+    (fp_text reference REF** (at 0 1) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value STICH (at 0 -1) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 2 GNDD) (zone_connect 2))
+  )
+
+  (module custom:STICH (layer F.Cu) (tedit 58CA496A) (tstamp 58CA4E1A)
+    (at 166.8485 114.763)
+    (fp_text reference REF** (at 0 1) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value STICH (at 0 -1) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 2 GNDD) (zone_connect 2))
+  )
+
+  (module custom:STICH (layer F.Cu) (tedit 58CA496A) (tstamp 58CA4E16)
+    (at 164.8485 114.763)
+    (fp_text reference REF** (at 0 1) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value STICH (at 0 -1) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 2 GNDD) (zone_connect 2))
+  )
+
+  (module custom:STICH (layer F.Cu) (tedit 58CA496A) (tstamp 58CA4E12)
+    (at 166.8485 112.763)
+    (fp_text reference REF** (at 0 1) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value STICH (at 0 -1) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 2 GNDD) (zone_connect 2))
+  )
+
+  (module custom:STICH (layer F.Cu) (tedit 58CA496A) (tstamp 58CA4E0D)
+    (at 164.8485 112.763)
+    (fp_text reference REF** (at 0 1) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value STICH (at 0 -1) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 2 GNDD) (zone_connect 2))
+  )
+
+  (module custom:STICH (layer F.Cu) (tedit 58CA496A) (tstamp 58CA4E02)
+    (at 169.2945 121.9055)
+    (fp_text reference REF** (at 0 1) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value STICH (at 0 -1) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 2 GNDD) (zone_connect 2))
+  )
+
+  (module custom:STICH (layer F.Cu) (tedit 58CA496A) (tstamp 58CA4DF3)
+    (at 167.2945 121.9055)
+    (fp_text reference REF** (at 0 1) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value STICH (at 0 -1) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 2 GNDD) (zone_connect 2))
+  )
+
+  (module custom:STICH (layer F.Cu) (tedit 58CA496A) (tstamp 58CA4DEC)
+    (at 183.708 135.8435)
+    (fp_text reference REF** (at 0 1) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value STICH (at 0 -1) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 2 GNDD) (zone_connect 2))
+  )
+
+  (module custom:STICH (layer F.Cu) (tedit 58CA496A) (tstamp 58CA4DE8)
+    (at 181.708 135.8435)
+    (fp_text reference REF** (at 0 1) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value STICH (at 0 -1) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 2 GNDD) (zone_connect 2))
+  )
+
+  (module custom:STICH (layer F.Cu) (tedit 58CA496A) (tstamp 58CA4DE4)
+    (at 179.708 135.8435)
+    (fp_text reference REF** (at 0 1) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value STICH (at 0 -1) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 2 GNDD) (zone_connect 2))
+  )
+
+  (module custom:STICH (layer F.Cu) (tedit 58CA496A) (tstamp 58CA4DE0)
+    (at 177.708 135.8435)
+    (fp_text reference REF** (at 0 1) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value STICH (at 0 -1) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 2 GNDD) (zone_connect 2))
+  )
+
+  (module custom:STICH (layer F.Cu) (tedit 58CA496A) (tstamp 58CA4DDC)
+    (at 175.708 135.8435)
+    (fp_text reference REF** (at 0 1) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value STICH (at 0 -1) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 2 GNDD) (zone_connect 2))
+  )
+
+  (module custom:STICH (layer F.Cu) (tedit 58CA496A) (tstamp 58CA4DD4)
+    (at 183.708 133.8435)
+    (fp_text reference REF** (at 0 1) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value STICH (at 0 -1) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 2 GNDD) (zone_connect 2))
+  )
+
+  (module custom:STICH (layer F.Cu) (tedit 58CA496A) (tstamp 58CA4DD0)
+    (at 181.708 133.8435)
+    (fp_text reference REF** (at 0 1) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value STICH (at 0 -1) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 2 GNDD) (zone_connect 2))
+  )
+
+  (module custom:STICH (layer F.Cu) (tedit 58CA496A) (tstamp 58CA4DCC)
+    (at 179.708 133.8435)
+    (fp_text reference REF** (at 0 1) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value STICH (at 0 -1) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 2 GNDD) (zone_connect 2))
+  )
+
+  (module custom:STICH (layer F.Cu) (tedit 58CA496A) (tstamp 58CA4DC8)
+    (at 177.708 133.8435)
+    (fp_text reference REF** (at 0 1) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value STICH (at 0 -1) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 2 GNDD) (zone_connect 2))
+  )
+
+  (module custom:STICH (layer F.Cu) (tedit 58CA496A) (tstamp 58CA4DC4)
+    (at 175.708 133.8435)
+    (fp_text reference REF** (at 0 1) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value STICH (at 0 -1) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 2 GNDD) (zone_connect 2))
+  )
+
+  (module custom:STICH (layer F.Cu) (tedit 58CA496A) (tstamp 58CA4DC0)
+    (at 173.708 133.8435)
+    (fp_text reference REF** (at 0 1) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value STICH (at 0 -1) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 2 GNDD) (zone_connect 2))
+  )
+
+  (module custom:STICH (layer F.Cu) (tedit 58CA496A) (tstamp 58CA4DBC)
+    (at 183.708 131.8435)
+    (fp_text reference REF** (at 0 1) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value STICH (at 0 -1) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 2 GNDD) (zone_connect 2))
+  )
+
+  (module custom:STICH (layer F.Cu) (tedit 58CA496A) (tstamp 58CA4DB8)
+    (at 181.708 131.8435)
+    (fp_text reference REF** (at 0 1) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value STICH (at 0 -1) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 2 GNDD) (zone_connect 2))
+  )
+
+  (module custom:STICH (layer F.Cu) (tedit 58CA496A) (tstamp 58CA4DB4)
+    (at 179.708 131.8435)
+    (fp_text reference REF** (at 0 1) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value STICH (at 0 -1) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 2 GNDD) (zone_connect 2))
+  )
+
+  (module custom:STICH (layer F.Cu) (tedit 58CA496A) (tstamp 58CA4DB0)
+    (at 177.708 131.8435)
+    (fp_text reference REF** (at 0 1) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value STICH (at 0 -1) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 2 GNDD) (zone_connect 2))
+  )
+
+  (module custom:STICH (layer F.Cu) (tedit 58CA496A) (tstamp 58CA4DAC)
+    (at 175.708 131.8435)
+    (fp_text reference REF** (at 0 1) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value STICH (at 0 -1) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 2 GNDD) (zone_connect 2))
+  )
+
+  (module custom:STICH (layer F.Cu) (tedit 58CA496A) (tstamp 58CA4DA8)
+    (at 173.708 131.8435)
+    (fp_text reference REF** (at 0 1) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value STICH (at 0 -1) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 2 GNDD) (zone_connect 2))
+  )
+
+  (module custom:STICH (layer F.Cu) (tedit 58CA496A) (tstamp 58CA4DA4)
+    (at 183.708 129.8435)
+    (fp_text reference REF** (at 0 1) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value STICH (at 0 -1) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 2 GNDD) (zone_connect 2))
+  )
+
+  (module custom:STICH (layer F.Cu) (tedit 58CA496A) (tstamp 58CA4DA0)
+    (at 181.708 129.8435)
+    (fp_text reference REF** (at 0 1) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value STICH (at 0 -1) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 2 GNDD) (zone_connect 2))
+  )
+
+  (module custom:STICH (layer F.Cu) (tedit 58CA496A) (tstamp 58CA4D9C)
+    (at 179.708 129.8435)
+    (fp_text reference REF** (at 0 1) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value STICH (at 0 -1) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 2 GNDD) (zone_connect 2))
+  )
+
+  (module custom:STICH (layer F.Cu) (tedit 58CA496A) (tstamp 58CA4D98)
+    (at 177.708 129.8435)
+    (fp_text reference REF** (at 0 1) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value STICH (at 0 -1) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 2 GNDD) (zone_connect 2))
+  )
+
+  (module custom:STICH (layer F.Cu) (tedit 58CA496A) (tstamp 58CA4D94)
+    (at 175.708 129.8435)
+    (fp_text reference REF** (at 0 1) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value STICH (at 0 -1) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 2 GNDD) (zone_connect 2))
+  )
+
+  (module custom:STICH (layer F.Cu) (tedit 58CA496A) (tstamp 58CA4D90)
+    (at 173.708 129.8435)
+    (fp_text reference REF** (at 0 1) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value STICH (at 0 -1) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 2 GNDD) (zone_connect 2))
+  )
+
+  (module custom:STICH (layer F.Cu) (tedit 58CA496A) (tstamp 58CA4D8C)
+    (at 183.708 127.8435)
+    (fp_text reference REF** (at 0 1) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value STICH (at 0 -1) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 2 GNDD) (zone_connect 2))
+  )
+
+  (module custom:STICH (layer F.Cu) (tedit 58CA496A) (tstamp 58CA4D88)
+    (at 181.708 127.8435)
+    (fp_text reference REF** (at 0 1) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value STICH (at 0 -1) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 2 GNDD) (zone_connect 2))
+  )
+
+  (module custom:STICH (layer F.Cu) (tedit 58CA496A) (tstamp 58CA4D84)
+    (at 179.708 127.8435)
+    (fp_text reference REF** (at 0 1) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value STICH (at 0 -1) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 2 GNDD) (zone_connect 2))
+  )
+
+  (module custom:STICH (layer F.Cu) (tedit 58CA496A) (tstamp 58CA4D80)
+    (at 177.708 127.8435)
+    (fp_text reference REF** (at 0 1) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value STICH (at 0 -1) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 2 GNDD) (zone_connect 2))
+  )
+
+  (module custom:STICH (layer F.Cu) (tedit 58CA496A) (tstamp 58CA4D7C)
+    (at 175.708 127.8435)
+    (fp_text reference REF** (at 0 1) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value STICH (at 0 -1) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 2 GNDD) (zone_connect 2))
+  )
+
+  (module custom:STICH (layer F.Cu) (tedit 58CA496A) (tstamp 58CA4D78)
+    (at 173.708 127.8435)
+    (fp_text reference REF** (at 0 1) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value STICH (at 0 -1) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 2 GNDD) (zone_connect 2))
+  )
+
+  (module custom:STICH (layer F.Cu) (tedit 58CA496A) (tstamp 58CA4D74)
+    (at 183.708 125.8435)
+    (fp_text reference REF** (at 0 1) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value STICH (at 0 -1) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 2 GNDD) (zone_connect 2))
+  )
+
+  (module custom:STICH (layer F.Cu) (tedit 58CA496A) (tstamp 58CA4D70)
+    (at 181.708 125.8435)
+    (fp_text reference REF** (at 0 1) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value STICH (at 0 -1) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 2 GNDD) (zone_connect 2))
+  )
+
+  (module custom:STICH (layer F.Cu) (tedit 58CA496A) (tstamp 58CA4D6C)
+    (at 179.708 125.8435)
+    (fp_text reference REF** (at 0 1) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value STICH (at 0 -1) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 2 GNDD) (zone_connect 2))
+  )
+
+  (module custom:STICH (layer F.Cu) (tedit 58CA496A) (tstamp 58CA4D68)
+    (at 177.708 125.8435)
+    (fp_text reference REF** (at 0 1) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value STICH (at 0 -1) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 2 GNDD) (zone_connect 2))
+  )
+
+  (module custom:STICH (layer F.Cu) (tedit 58CA496A) (tstamp 58CA4D64)
+    (at 175.708 125.8435)
+    (fp_text reference REF** (at 0 1) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value STICH (at 0 -1) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 2 GNDD) (zone_connect 2))
+  )
+
+  (module custom:STICH (layer F.Cu) (tedit 58CA496A) (tstamp 58CA4D60)
+    (at 173.708 125.8435)
+    (fp_text reference REF** (at 0 1) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value STICH (at 0 -1) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 2 GNDD) (zone_connect 2))
+  )
+
+  (module custom:STICH (layer F.Cu) (tedit 58CA496A) (tstamp 58CA4D5C)
+    (at 183.708 123.8435)
+    (fp_text reference REF** (at 0 1) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value STICH (at 0 -1) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 2 GNDD) (zone_connect 2))
+  )
+
+  (module custom:STICH (layer F.Cu) (tedit 58CA496A) (tstamp 58CA4D58)
+    (at 181.708 123.8435)
+    (fp_text reference REF** (at 0 1) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value STICH (at 0 -1) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 2 GNDD) (zone_connect 2))
+  )
+
+  (module custom:STICH (layer F.Cu) (tedit 58CA496A) (tstamp 58CA4D54)
+    (at 179.708 123.8435)
+    (fp_text reference REF** (at 0 1) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value STICH (at 0 -1) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 2 GNDD) (zone_connect 2))
+  )
+
+  (module custom:STICH (layer F.Cu) (tedit 58CA496A) (tstamp 58CA4D50)
+    (at 177.708 123.8435)
+    (fp_text reference REF** (at 0 1) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value STICH (at 0 -1) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 2 GNDD) (zone_connect 2))
+  )
+
+  (module custom:STICH (layer F.Cu) (tedit 58CA496A) (tstamp 58CA4D4C)
+    (at 175.708 123.8435)
+    (fp_text reference REF** (at 0 1) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value STICH (at 0 -1) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 2 GNDD) (zone_connect 2))
+  )
+
+  (module custom:STICH (layer F.Cu) (tedit 58CA496A) (tstamp 58CA4D48)
+    (at 173.708 123.8435)
+    (fp_text reference REF** (at 0 1) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value STICH (at 0 -1) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 2 GNDD) (zone_connect 2))
+  )
+
+  (module custom:STICH (layer F.Cu) (tedit 58CA496A) (tstamp 58CA4D44)
+    (at 183.708 121.8435)
+    (fp_text reference REF** (at 0 1) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value STICH (at 0 -1) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 2 GNDD) (zone_connect 2))
+  )
+
+  (module custom:STICH (layer F.Cu) (tedit 58CA496A) (tstamp 58CA4D40)
+    (at 181.708 121.8435)
+    (fp_text reference REF** (at 0 1) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value STICH (at 0 -1) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 2 GNDD) (zone_connect 2))
+  )
+
+  (module custom:STICH (layer F.Cu) (tedit 58CA496A) (tstamp 58CA4D3C)
+    (at 179.708 121.8435)
+    (fp_text reference REF** (at 0 1) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value STICH (at 0 -1) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 2 GNDD) (zone_connect 2))
+  )
+
+  (module custom:STICH (layer F.Cu) (tedit 58CA496A) (tstamp 58CA4D38)
+    (at 177.708 121.8435)
+    (fp_text reference REF** (at 0 1) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value STICH (at 0 -1) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 2 GNDD) (zone_connect 2))
+  )
+
+  (module custom:STICH (layer F.Cu) (tedit 58CA496A) (tstamp 58CA4D34)
+    (at 175.708 121.8435)
+    (fp_text reference REF** (at 0 1) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value STICH (at 0 -1) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 2 GNDD) (zone_connect 2))
+  )
+
+  (module custom:STICH (layer F.Cu) (tedit 58CA496A) (tstamp 58CA4C6C)
+    (at 138.846 128.224)
+    (fp_text reference REF** (at 0 1) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value STICH (at 0 -1) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 2 GNDD) (zone_connect 2))
+  )
+
+  (module custom:STICH (layer F.Cu) (tedit 58CA496A) (tstamp 58CA4C68)
+    (at 136.846 128.224)
+    (fp_text reference REF** (at 0 1) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value STICH (at 0 -1) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 2 GNDD) (zone_connect 2))
+  )
+
+  (module custom:STICH (layer F.Cu) (tedit 58CA496A) (tstamp 58CA4C64)
+    (at 138.846 126.224)
+    (fp_text reference REF** (at 0 1) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value STICH (at 0 -1) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 2 GNDD) (zone_connect 2))
+  )
+
+  (module custom:STICH (layer F.Cu) (tedit 58CA496A) (tstamp 58CA4C5F)
+    (at 136.846 126.224)
+    (fp_text reference REF** (at 0 1) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value STICH (at 0 -1) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 2 GNDD) (zone_connect 2))
+  )
+
+  (module custom:STICH (layer F.Cu) (tedit 58CA496A) (tstamp 58CA4C5A)
+    (at 158.1185 136.4155)
+    (fp_text reference REF** (at 0 1) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value STICH (at 0 -1) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 2 GNDD) (zone_connect 2))
+  )
+
+  (module custom:STICH (layer F.Cu) (tedit 58CA496A) (tstamp 58CA4C56)
+    (at 156.1185 136.4155)
+    (fp_text reference REF** (at 0 1) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value STICH (at 0 -1) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 2 GNDD) (zone_connect 2))
+  )
+
+  (module custom:STICH (layer F.Cu) (tedit 58CA496A) (tstamp 58CA4C52)
+    (at 158.1185 134.4155)
+    (fp_text reference REF** (at 0 1) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value STICH (at 0 -1) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 2 GNDD) (zone_connect 2))
+  )
+
+  (module custom:STICH (layer F.Cu) (tedit 58CA496A) (tstamp 58CA4C4D)
+    (at 156.1185 134.4155)
+    (fp_text reference REF** (at 0 1) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value STICH (at 0 -1) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 2 GNDD) (zone_connect 2))
+  )
+
+  (module custom:STICH (layer F.Cu) (tedit 58CA496A) (tstamp 58CA4C47)
+    (at 175.0675 154.8615)
+    (fp_text reference REF** (at 0 1) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value STICH (at 0 -1) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 2 GNDD) (zone_connect 2))
+  )
+
+  (module custom:STICH (layer F.Cu) (tedit 58CA496A) (tstamp 58CA4C43)
+    (at 173.0675 154.8615)
+    (fp_text reference REF** (at 0 1) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value STICH (at 0 -1) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 2 GNDD) (zone_connect 2))
+  )
+
+  (module custom:STICH (layer F.Cu) (tedit 58CA496A) (tstamp 58CA4C3F)
+    (at 171.0675 154.8615)
+    (fp_text reference REF** (at 0 1) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value STICH (at 0 -1) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 2 GNDD) (zone_connect 2))
+  )
+
+  (module custom:STICH (layer F.Cu) (tedit 58CA496A) (tstamp 58CA4C3B)
+    (at 169.0675 154.8615)
+    (fp_text reference REF** (at 0 1) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value STICH (at 0 -1) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 2 GNDD) (zone_connect 2))
+  )
+
+  (module custom:STICH (layer F.Cu) (tedit 58CA496A) (tstamp 58CA4C37)
+    (at 167.0675 154.8615)
+    (fp_text reference REF** (at 0 1) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value STICH (at 0 -1) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 2 GNDD) (zone_connect 2))
+  )
+
+  (module custom:STICH (layer F.Cu) (tedit 58CA496A) (tstamp 58CA4C33)
+    (at 175.0675 152.8615)
+    (fp_text reference REF** (at 0 1) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value STICH (at 0 -1) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 2 GNDD) (zone_connect 2))
+  )
+
+  (module custom:STICH (layer F.Cu) (tedit 58CA496A) (tstamp 58CA4C2F)
+    (at 173.0675 152.8615)
+    (fp_text reference REF** (at 0 1) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value STICH (at 0 -1) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 2 GNDD) (zone_connect 2))
+  )
+
+  (module custom:STICH (layer F.Cu) (tedit 58CA496A) (tstamp 58CA4C2B)
+    (at 171.0675 152.8615)
+    (fp_text reference REF** (at 0 1) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value STICH (at 0 -1) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 2 GNDD) (zone_connect 2))
+  )
+
+  (module custom:STICH (layer F.Cu) (tedit 58CA496A) (tstamp 58CA4C27)
+    (at 169.0675 152.8615)
+    (fp_text reference REF** (at 0 1) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value STICH (at 0 -1) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 2 GNDD) (zone_connect 2))
+  )
+
+  (module custom:STICH (layer F.Cu) (tedit 58CA496A) (tstamp 58CA4C23)
+    (at 167.0675 152.8615)
+    (fp_text reference REF** (at 0 1) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value STICH (at 0 -1) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 2 GNDD) (zone_connect 2))
+  )
+
+  (module custom:STICH (layer F.Cu) (tedit 58CA496A) (tstamp 58CA4C1F)
+    (at 175.0675 150.8615)
+    (fp_text reference REF** (at 0 1) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value STICH (at 0 -1) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 2 GNDD) (zone_connect 2))
+  )
+
+  (module custom:STICH (layer F.Cu) (tedit 58CA496A) (tstamp 58CA4C1B)
+    (at 173.0675 150.8615)
+    (fp_text reference REF** (at 0 1) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value STICH (at 0 -1) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 2 GNDD) (zone_connect 2))
+  )
+
+  (module custom:STICH (layer F.Cu) (tedit 58CA496A) (tstamp 58CA4C17)
+    (at 171.0675 150.8615)
+    (fp_text reference REF** (at 0 1) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value STICH (at 0 -1) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 2 GNDD) (zone_connect 2))
+  )
+
+  (module custom:STICH (layer F.Cu) (tedit 58CA496A) (tstamp 58CA4C13)
+    (at 169.0675 150.8615)
+    (fp_text reference REF** (at 0 1) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value STICH (at 0 -1) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 2 GNDD) (zone_connect 2))
+  )
+
+  (module custom:STICH (layer F.Cu) (tedit 58CA496A) (tstamp 58CA4C0F)
+    (at 167.0675 150.8615)
+    (fp_text reference REF** (at 0 1) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value STICH (at 0 -1) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 2 GNDD) (zone_connect 2))
+  )
+
+  (module custom:STICH (layer F.Cu) (tedit 58CA496A) (tstamp 58CA4C0B)
+    (at 175.0675 148.8615)
+    (fp_text reference REF** (at 0 1) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value STICH (at 0 -1) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 2 GNDD) (zone_connect 2))
+  )
+
+  (module custom:STICH (layer F.Cu) (tedit 58CA496A) (tstamp 58CA4C07)
+    (at 173.0675 148.8615)
+    (fp_text reference REF** (at 0 1) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value STICH (at 0 -1) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 2 GNDD) (zone_connect 2))
+  )
+
+  (module custom:STICH (layer F.Cu) (tedit 58CA496A) (tstamp 58CA4C03)
+    (at 171.0675 148.8615)
+    (fp_text reference REF** (at 0 1) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value STICH (at 0 -1) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 2 GNDD) (zone_connect 2))
+  )
+
+  (module custom:STICH (layer F.Cu) (tedit 58CA496A) (tstamp 58CA4BFF)
+    (at 169.0675 148.8615)
+    (fp_text reference REF** (at 0 1) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value STICH (at 0 -1) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 2 GNDD) (zone_connect 2))
+  )
+
+  (module custom:STICH (layer F.Cu) (tedit 58CA496A) (tstamp 58CA4BFB)
+    (at 167.0675 148.8615)
+    (fp_text reference REF** (at 0 1) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value STICH (at 0 -1) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 2 GNDD) (zone_connect 2))
+  )
+
+  (module custom:STICH (layer F.Cu) (tedit 58CA496A) (tstamp 58CA4BF7)
+    (at 175.0675 146.8615)
+    (fp_text reference REF** (at 0 1) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value STICH (at 0 -1) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 2 GNDD) (zone_connect 2))
+  )
+
+  (module custom:STICH (layer F.Cu) (tedit 58CA496A) (tstamp 58CA4BF3)
+    (at 173.0675 146.8615)
+    (fp_text reference REF** (at 0 1) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value STICH (at 0 -1) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 2 GNDD) (zone_connect 2))
+  )
+
+  (module custom:STICH (layer F.Cu) (tedit 58CA496A) (tstamp 58CA4BEF)
+    (at 171.0675 146.8615)
+    (fp_text reference REF** (at 0 1) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value STICH (at 0 -1) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 2 GNDD) (zone_connect 2))
+  )
+
+  (module custom:STICH (layer F.Cu) (tedit 58CA496A) (tstamp 58CA4BEB)
+    (at 169.0675 146.8615)
+    (fp_text reference REF** (at 0 1) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value STICH (at 0 -1) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 2 GNDD) (zone_connect 2))
+  )
+
+  (module custom:STICH (layer F.Cu) (tedit 58CA496A) (tstamp 58CA4AE8)
+    (at 167.0675 146.8615)
+    (fp_text reference REF** (at 0 1) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value STICH (at 0 -1) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 2 GNDD) (zone_connect 2))
+  )
+
+  (module custom:STICH (layer F.Cu) (tedit 58CA496A) (tstamp 58CA4AE3)
+    (at 150.3035 121.652)
+    (fp_text reference REF** (at 0 1) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value STICH (at 0 -1) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 2 GNDD) (zone_connect 2))
+  )
+
+  (module custom:STICH (layer F.Cu) (tedit 58CA496A) (tstamp 58CA4ADE)
+    (at 174.243 158.6725)
+    (fp_text reference REF** (at 0 1) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value STICH (at 0 -1) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 2 GNDD) (zone_connect 2))
+  )
+
+  (module custom:STICH (layer F.Cu) (tedit 58CA496A) (tstamp 58CA4ADA)
+    (at 172.243 158.6725)
+    (fp_text reference REF** (at 0 1) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value STICH (at 0 -1) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 2 GNDD) (zone_connect 2))
+  )
+
+  (module custom:STICH (layer F.Cu) (tedit 58CA496A) (tstamp 58CA4AD6)
+    (at 170.243 158.6725)
+    (fp_text reference REF** (at 0 1) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value STICH (at 0 -1) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 2 GNDD) (zone_connect 2))
+  )
+
+  (module custom:STICH (layer F.Cu) (tedit 58CA496A) (tstamp 58CA4AD2)
+    (at 168.243 158.6725)
+    (fp_text reference REF** (at 0 1) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value STICH (at 0 -1) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 2 GNDD) (zone_connect 2))
+  )
+
+  (module custom:STICH (layer F.Cu) (tedit 58CA496A) (tstamp 58CA4ACE)
+    (at 166.243 158.6725)
+    (fp_text reference REF** (at 0 1) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value STICH (at 0 -1) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 2 GNDD) (zone_connect 2))
+  )
+
+  (module custom:STICH (layer F.Cu) (tedit 58CA496A) (tstamp 58CA4ACA)
+    (at 164.243 158.6725)
+    (fp_text reference REF** (at 0 1) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value STICH (at 0 -1) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 2 GNDD) (zone_connect 2))
+  )
+
+  (module custom:STICH (layer F.Cu) (tedit 58CA496A) (tstamp 58CA4AC6)
+    (at 162.243 158.6725)
+    (fp_text reference REF** (at 0 1) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value STICH (at 0 -1) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 2 GNDD) (zone_connect 2))
+  )
+
+  (module custom:STICH (layer F.Cu) (tedit 58CA496A) (tstamp 58CA4AC2)
+    (at 160.243 158.6725)
+    (fp_text reference REF** (at 0 1) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value STICH (at 0 -1) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 2 GNDD) (zone_connect 2))
+  )
+
+  (module custom:STICH (layer F.Cu) (tedit 58CA496A) (tstamp 58CA4ABE)
+    (at 158.243 158.6725)
+    (fp_text reference REF** (at 0 1) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value STICH (at 0 -1) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 2 GNDD) (zone_connect 2))
+  )
+
+  (module custom:STICH (layer F.Cu) (tedit 58CA496A) (tstamp 58CA4ABA)
+    (at 156.243 158.6725)
+    (fp_text reference REF** (at 0 1) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value STICH (at 0 -1) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 2 GNDD) (zone_connect 2))
+  )
+
+  (module custom:STICH (layer F.Cu) (tedit 58CA496A) (tstamp 58CA4AB6)
+    (at 154.243 158.6725)
+    (fp_text reference REF** (at 0 1) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value STICH (at 0 -1) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 2 GNDD) (zone_connect 2))
+  )
+
+  (module custom:STICH (layer F.Cu) (tedit 58CA496A) (tstamp 58CA4AB2)
+    (at 152.243 158.6725)
+    (fp_text reference REF** (at 0 1) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value STICH (at 0 -1) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 2 GNDD) (zone_connect 2))
+  )
+
+  (module custom:STICH (layer F.Cu) (tedit 58CA496A) (tstamp 58CA4AAE)
+    (at 150.243 158.6725)
+    (fp_text reference REF** (at 0 1) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value STICH (at 0 -1) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 2 GNDD) (zone_connect 2))
+  )
+
+  (module custom:STICH (layer F.Cu) (tedit 58CA496A) (tstamp 58CA4AAA)
+    (at 148.243 158.6725)
+    (fp_text reference REF** (at 0 1) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value STICH (at 0 -1) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 2 GNDD) (zone_connect 2))
+  )
+
+  (module custom:STICH (layer F.Cu) (tedit 58CA496A) (tstamp 58CA4AA6)
+    (at 146.243 158.6725)
+    (fp_text reference REF** (at 0 1) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value STICH (at 0 -1) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 2 GNDD) (zone_connect 2))
+  )
+
+  (module custom:STICH (layer F.Cu) (tedit 58CA496A) (tstamp 58CA4AA2)
+    (at 144.243 158.6725)
+    (fp_text reference REF** (at 0 1) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value STICH (at 0 -1) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 2 GNDD) (zone_connect 2))
+  )
+
+  (module custom:STICH (layer F.Cu) (tedit 58CA496A) (tstamp 58CA4A9E)
+    (at 142.243 158.6725)
+    (fp_text reference REF** (at 0 1) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value STICH (at 0 -1) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 2 GNDD) (zone_connect 2))
+  )
+
+  (module custom:STICH (layer F.Cu) (tedit 58CA496A) (tstamp 58CA4A9A)
+    (at 140.243 158.6725)
+    (fp_text reference REF** (at 0 1) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value STICH (at 0 -1) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 2 GNDD) (zone_connect 2))
+  )
+
+  (module custom:STICH (layer F.Cu) (tedit 58CA496A) (tstamp 58CA4A96)
+    (at 138.243 158.6725)
+    (fp_text reference REF** (at 0 1) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value STICH (at 0 -1) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 2 GNDD) (zone_connect 2))
+  )
+
+  (module custom:STICH (layer F.Cu) (tedit 58CA496A) (tstamp 58CA4A91)
+    (at 136.243 158.6725)
+    (fp_text reference REF** (at 0 1) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value STICH (at 0 -1) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 2 GNDD) (zone_connect 2))
+  )
+
+  (module custom:STICH (layer F.Cu) (tedit 58CA496A) (tstamp 58CA4A8A)
+    (at 172.8485 110.985)
+    (fp_text reference REF** (at 0 1) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value STICH (at 0 -1) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 2 GNDD) (zone_connect 2))
+  )
+
+  (module custom:STICH (layer F.Cu) (tedit 58CA496A) (tstamp 58CA4A86)
+    (at 170.8485 110.985)
+    (fp_text reference REF** (at 0 1) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value STICH (at 0 -1) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 2 GNDD) (zone_connect 2))
+  )
+
+  (module custom:STICH (layer F.Cu) (tedit 58CA496A) (tstamp 58CA4A82)
+    (at 168.8485 110.985)
+    (fp_text reference REF** (at 0 1) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value STICH (at 0 -1) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 2 GNDD) (zone_connect 2))
+  )
+
+  (module custom:STICH (layer F.Cu) (tedit 58CA496A) (tstamp 58CA4A7E)
+    (at 166.8485 110.985)
+    (fp_text reference REF** (at 0 1) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value STICH (at 0 -1) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 2 GNDD) (zone_connect 2))
+  )
+
+  (module custom:STICH (layer F.Cu) (tedit 58CA496A) (tstamp 58CA4A7A)
+    (at 164.8485 110.985)
+    (fp_text reference REF** (at 0 1) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value STICH (at 0 -1) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 2 GNDD) (zone_connect 2))
+  )
+
+  (module custom:STICH (layer F.Cu) (tedit 58CA496A) (tstamp 58CA4A76)
+    (at 162.8485 110.985)
+    (fp_text reference REF** (at 0 1) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value STICH (at 0 -1) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 2 GNDD) (zone_connect 2))
+  )
+
+  (module custom:STICH (layer F.Cu) (tedit 58CA496A) (tstamp 58CA4A72)
+    (at 160.8485 110.985)
+    (fp_text reference REF** (at 0 1) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value STICH (at 0 -1) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 2 GNDD) (zone_connect 2))
+  )
+
+  (module custom:STICH (layer F.Cu) (tedit 58CA496A) (tstamp 58CA4A6E)
+    (at 158.8485 110.985)
+    (fp_text reference REF** (at 0 1) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value STICH (at 0 -1) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 2 GNDD) (zone_connect 2))
+  )
+
+  (module custom:STICH (layer F.Cu) (tedit 58CA496A) (tstamp 58CA4A6A)
+    (at 156.8485 110.985)
+    (fp_text reference REF** (at 0 1) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value STICH (at 0 -1) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 2 GNDD) (zone_connect 2))
+  )
+
+  (module custom:STICH (layer F.Cu) (tedit 58CA496A) (tstamp 58CA4A65)
+    (at 154.8485 110.985)
+    (fp_text reference REF** (at 0 1) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value STICH (at 0 -1) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 2 GNDD) (zone_connect 2))
+  )
+
   (module Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm (layer F.Cu) (tedit 5862ED52) (tstamp 58C45DAE)
     (at 140.548 113.9975 270)
     (descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
@@ -310,7 +1786,7 @@
     )
   )
 
-  (module Capacitors_SMD:C_0603 (layer F.Cu) (tedit 58AA844E) (tstamp 58C45E14)
+  (module Capacitors_SMD:C_0603 (layer F.Cu) (tedit 58CA4344) (tstamp 58C45E14)
     (at 165.58 125.3995)
     (descr "Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0603")
@@ -322,7 +1798,7 @@
     (fp_text value 1uF (at 0 1.5) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text user %R (at 0 -1.5) (layer F.Fab)
+    (fp_text user %R (at 2.667 0.1905) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -0.8 0.4) (end -0.8 -0.4) (layer F.Fab) (width 0.1))
@@ -382,7 +1858,7 @@
     )
   )
 
-  (module Capacitors_SMD:C_0603 (layer F.Cu) (tedit 58AA844E) (tstamp 58C45E36)
+  (module Capacitors_SMD:C_0603 (layer F.Cu) (tedit 58CA4348) (tstamp 58C45E36)
     (at 165.199 124.0025)
     (descr "Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0603")
@@ -394,7 +1870,7 @@
     (fp_text value 1uF (at 0 1.5) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text user %R (at 0 -1.5) (layer F.Fab)
+    (fp_text user %R (at 2.8575 0.127) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -0.8 0.4) (end -0.8 -0.4) (layer F.Fab) (width 0.1))
@@ -418,7 +1894,7 @@
     )
   )
 
-  (module Capacitors_SMD:C_0603 (layer F.Cu) (tedit 58AA844E) (tstamp 58C45E47)
+  (module Capacitors_SMD:C_0603 (layer F.Cu) (tedit 58CA4362) (tstamp 58C45E47)
     (at 162.4685 115.1125 90)
     (descr "Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0603")
@@ -430,7 +1906,7 @@
     (fp_text value 1uF (at 0 1.5 90) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text user %R (at 0 -1.5 90) (layer F.Fab)
+    (fp_text user %R (at 0 1.397 90) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -0.8 0.4) (end -0.8 -0.4) (layer F.Fab) (width 0.1))
@@ -454,7 +1930,7 @@
     )
   )
 
-  (module Capacitors_SMD:C_0603 (layer F.Cu) (tedit 58AA844E) (tstamp 58C45E58)
+  (module Capacitors_SMD:C_0603 (layer F.Cu) (tedit 58CA4366) (tstamp 58C45E58)
     (at 142.834 118.3155 180)
     (descr "Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0603")
@@ -466,7 +1942,7 @@
     (fp_text value 100nF (at 0 1.5 180) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text user %R (at 0 -1.5 180) (layer F.Fab)
+    (fp_text user %R (at -0.0765 1.425 180) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -0.8 0.4) (end -0.8 -0.4) (layer F.Fab) (width 0.1))
@@ -653,7 +2129,7 @@
     )
   )
 
-  (module Capacitors_SMD:C_0603 (layer F.Cu) (tedit 58AA844E) (tstamp 58C45EB7)
+  (module Capacitors_SMD:C_0603 (layer F.Cu) (tedit 58CA433A) (tstamp 58C45EB7)
     (at 151.61 127.876 270)
     (descr "Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0603")
@@ -665,7 +2141,7 @@
     (fp_text value 1uF (at 0 1.5 270) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text user %R (at 0 -1.5 270) (layer F.Fab)
+    (fp_text user %R (at 3.7465 5.334 270) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -0.8 0.4) (end -0.8 -0.4) (layer F.Fab) (width 0.1))
@@ -844,7 +2320,7 @@
     )
   )
 
-  (module Resistors_SMD:R_0603 (layer F.Cu) (tedit 58AAD9CA) (tstamp 58C45F2C)
+  (module Resistors_SMD:R_0603 (layer F.Cu) (tedit 58CA4305) (tstamp 58C45F2C)
     (at 149.8955 138.6075 90)
     (descr "Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0603")
@@ -856,7 +2332,7 @@
     (fp_text value 1.5k (at 0 1.5 90) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text user %R (at 0 -1.45 90) (layer F.Fab)
+    (fp_text user %R (at -2.159 0 90) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -0.8 0.4) (end -0.8 -0.4) (layer F.Fab) (width 0.1))
@@ -880,7 +2356,7 @@
     )
   )
 
-  (module Resistors_SMD:R_0603 (layer F.Cu) (tedit 58AAD9CA) (tstamp 58C45F3D)
+  (module Resistors_SMD:R_0603 (layer F.Cu) (tedit 58CA42FF) (tstamp 58C45F3D)
     (at 147.927 138.6075 90)
     (descr "Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0603")
@@ -892,7 +2368,7 @@
     (fp_text value 1.5k (at 0 1.5 90) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text user %R (at 0 -1.45 90) (layer F.Fab)
+    (fp_text user %R (at -2.159 0.0635 90) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -0.8 0.4) (end -0.8 -0.4) (layer F.Fab) (width 0.1))
@@ -916,7 +2392,7 @@
     )
   )
 
-  (module Resistors_SMD:R_0603 (layer F.Cu) (tedit 58AAD9CA) (tstamp 58C45F4E)
+  (module Resistors_SMD:R_0603 (layer F.Cu) (tedit 58CA430A) (tstamp 58C45F4E)
     (at 145.26 153.3395 180)
     (descr "Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0603")
@@ -928,7 +2404,7 @@
     (fp_text value 10k (at 0 1.5 180) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text user %R (at 0 -1.45 180) (layer F.Fab)
+    (fp_text user %R (at 0 1.3335 180) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -0.8 0.4) (end -0.8 -0.4) (layer F.Fab) (width 0.1))
@@ -1442,7 +2918,7 @@
     )
   )
 
-  (module Capacitors_SMD:C_0603 (layer F.Cu) (tedit 58AA844E) (tstamp 58C83818)
+  (module Capacitors_SMD:C_0603 (layer F.Cu) (tedit 58CA433D) (tstamp 58C83818)
     (at 152.9435 127.876 270)
     (descr "Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0603")
@@ -1454,7 +2930,7 @@
     (fp_text value 10uF (at 0 1.5 270) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text user %R (at 0 -1.5 270) (layer F.Fab)
+    (fp_text user %R (at 3.7465 5.207 270) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -0.8 0.4) (end -0.8 -0.4) (layer F.Fab) (width 0.1))
@@ -1550,7 +3026,7 @@
     )
   )
 
-  (module Capacitors_SMD:C_0603 (layer F.Cu) (tedit 58AA844E) (tstamp 58C8384B)
+  (module Capacitors_SMD:C_0603 (layer F.Cu) (tedit 58CA4337) (tstamp 58C8384B)
     (at 150.2765 127.876 270)
     (descr "Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0603")
@@ -1562,7 +3038,7 @@
     (fp_text value 1uF (at 0 1.5 270) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text user %R (at 0 -1.5 270) (layer F.Fab)
+    (fp_text user %R (at 3.7465 5.461 270) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -0.8 0.4) (end -0.8 -0.4) (layer F.Fab) (width 0.1))
@@ -1628,7 +3104,7 @@
     )
   )
 
-  (module Capacitors_SMD:C_0402 (layer F.Cu) (tedit 58AA841A) (tstamp 58C83E08)
+  (module Capacitors_SMD:C_0402 (layer F.Cu) (tedit 58CA4353) (tstamp 58C83E08)
     (at 170.5965 113.2075 180)
     (descr "Capacitor SMD 0402, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0402")
@@ -1640,7 +3116,7 @@
     (fp_text value 0.3pF (at 0 1.27 180) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text user %R (at 0 -1.27 180) (layer F.Fab)
+    (fp_text user %R (at 0.1905 1.2065 180) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -0.5 0.25) (end -0.5 -0.25) (layer F.Fab) (width 0.1))
@@ -1664,7 +3140,7 @@
     )
   )
 
-  (module Capacitors_SMD:C_0402 (layer F.Cu) (tedit 58AA841A) (tstamp 58C83E19)
+  (module Capacitors_SMD:C_0402 (layer F.Cu) (tedit 58CA435D) (tstamp 58C83E19)
     (at 170.5965 114.668 180)
     (descr "Capacitor SMD 0402, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0402")
@@ -1676,7 +3152,7 @@
     (fp_text value 3.9pF (at 0 1.27 180) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text user %R (at 0 -1.27 180) (layer F.Fab)
+    (fp_text user %R (at 1.651 -1.27 180) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -0.5 0.25) (end -0.5 -0.25) (layer F.Fab) (width 0.1))
@@ -1808,7 +3284,7 @@
     )
   )
 
-  (module Capacitors_SMD:C_0402 (layer F.Cu) (tedit 58AA841A) (tstamp 58C83F25)
+  (module Capacitors_SMD:C_0402 (layer F.Cu) (tedit 58CA434D) (tstamp 58C83F25)
     (at 168.8185 120.256)
     (descr "Capacitor SMD 0402, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0402")
@@ -1820,7 +3296,7 @@
     (fp_text value 100pF (at 0 1.27) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text user %R (at 0 -1.27) (layer F.Fab)
+    (fp_text user %R (at 0.127 1.397) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -0.5 0.25) (end -0.5 -0.25) (layer F.Fab) (width 0.1))
@@ -1983,7 +3459,7 @@
       (net 41 "Net-(R7-Pad2)"))
   )
 
-  (module Capacitors_SMD:C_0603 (layer F.Cu) (tedit 58AA844E) (tstamp 58C9ACF9)
+  (module Capacitors_SMD:C_0603 (layer F.Cu) (tedit 58CA4315) (tstamp 58C9ACF9)
     (at 153.3245 130.924 270)
     (descr "Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0603")
@@ -1995,7 +3471,7 @@
     (fp_text value C_Small (at 0 1.5 270) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text user %R (at 0 -1.5 270) (layer F.Fab)
+    (fp_text user %R (at 2.794 -2.2225 270) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -0.8 0.4) (end -0.8 -0.4) (layer F.Fab) (width 0.1))
@@ -2089,6 +3565,18 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+  )
+
+  (module custom:STICH (layer F.Cu) (tedit 58CA496A) (tstamp 58CA4947)
+    (at 173.708 121.8435)
+    (fp_text reference REF** (at 0 1) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value STICH (at 0 -1) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 2 GNDD) (zone_connect 2))
   )
 
   (gr_line (start 135 160) (end 185 160) (angle 90) (layer Edge.Cuts) (width 0.1))
