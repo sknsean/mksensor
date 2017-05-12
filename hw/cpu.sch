@@ -93,9 +93,9 @@ F 3 "" H 5835 4225 50  0000 C CNN
 	1    5835 4225
 	1    0    0    -1  
 $EndComp
-Text HLabel 4550 3225 2    60   Output ~ 0
+Text HLabel 4550 3325 2    60   Output ~ 0
 UART_TXD
-Text HLabel 4550 3325 2    60   Input ~ 0
+Text HLabel 4550 3225 2    60   Input ~ 0
 UART_RXD
 Text HLabel 4550 3925 2    60   Input ~ 0
 LIGHT_IRQ
